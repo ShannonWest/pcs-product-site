@@ -1,0 +1,91 @@
+
+
+/* CSS PROPERTIES OUTSIDE OF MEDIA QUERIES ARE FOR SCREENS
+LARGER THAN MOBILE BUT SMALLER THAN LAPTOP. THE MEDIA 
+QUERIES (AT THE BOTTOM OF THE CSS)WILL SET THE 
+BREAKPOINTS AND PROPERTIES FOR LARGER SCREENS */
+
+body {
+
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.logo {
+	float: left;
+	margin-left: 10%;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 3em;
+	width: 60%;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	margin: 2em;
+}
+
+nav a {
+	color: gray;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+}
+
+/********************
+MEDIA QUERIES
+********************/
+
+@media screen and (max-width: 401px) {
+
+	body {
+		background-color: #d1f2c7;
+	}
+
+	.logo {
+		float: none;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	nav ul {
+		width: 100%;
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav li {
+		margin: 1em;
+		padding: 0;
+	}
+
+	nav a {
+		font-size: 16px;
+	}
+
+	.Get {
+		 font-size: 30px;
+		 background-color: white;
+		 text-decoration: none;
+	  	 color: gray;
+		 border-radius: 15px;
+		 text-align: center;
+		 width: 25%;
+		 display: block;
+		 margin: 17.5% auto;
+		 padding: 1em;
+	}
+
+}
