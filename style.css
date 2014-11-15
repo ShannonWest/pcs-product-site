@@ -6,36 +6,52 @@ QUERIES (AT THE BOTTOM OF THE CSS)WILL SET THE
 BREAKPOINTS AND PROPERTIES FOR LARGER SCREENS */
 
 body {
-
+   font: normal 1.1em/1.5 sans-serif;
 }
+.main-header {background-color: #384047}
+.main-nav li {background-color: #3f8abf}
+.main-logo   {background-color: #5fcf80}
+.main-header {background-color: #384047}
+
 
 .container {
 	max-width: 1000px;
 }
 
-.logo {
-	float: left;
-	margin-left: 10%;
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-nav ul {
+
+
+.main-header {
+	padding: 15px;
+}
+
+.main-logo {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-radius: 5px;
+}
+
+.main-nav li {
+	margin-top: 15px;
+	border-radius: 5px;
 	list-style-type: none;
-	text-align: center;
-	padding: 3em;
-	width: 60%;
-	float: right;
 }
 
-nav li {
-	display: inline-block;
-	margin: 2em;
-}
-
-nav a {
-	color: gray;
-	font-size: 24px;
+.main-logo a,
+.main-nav a {
+	display:block;
+	color: white;
 	text-decoration: none;
+	text-align: center;
+	padding: 5px 15px;
+	border-radius: 5px;
+
 }
+
 
 footer {
 	text-align: center;
@@ -46,9 +62,10 @@ footer {
 MEDIA QUERIES
 ********************/
 
-@media screen and (max-width: 401px) {
+@media screen and (min-width: 769px) {
 
 	body {
+
 		background-color: #d1f2c7;
 	}
 
