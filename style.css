@@ -1,7 +1,15 @@
-body { padding-top: 70px;}
+body { 
+	padding-top: 70px;
+	position: relative;
+}
 
 .container {
 	text-align: center;
+}
+
+form {
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .col-xs-4 {
@@ -12,8 +20,4 @@ body { padding-top: 70px;}
 	background: url(http://i1373.photobucket.com/albums/ag395/rlh1987/San_Francisco_1906_earthquake_Panoramic_Viewcopy_zps6a7bde90.jpg) no-repeat;
 	background-size: 100%;>
 }		
-p.pos_fixed {
-    position: fixed;
-    top: 30px;
-    right: 5px;
-}
+
