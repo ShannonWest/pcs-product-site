@@ -1,111 +1,12 @@
-<<<<<<< HEAD
 
 
-/* CSS PROPERTIES OUTSIDE OF MEDIA QUERIES ARE FOR SCREENS
-LARGER THAN MOBILE BUT SMALLER THAN LAPTOP. THE MEDIA 
-QUERIES (AT THE BOTTOM OF THE CSS)WILL SET THE 
-BREAKPOINTS AND PROPERTIES FOR LARGER SCREENS */
-
-body {
-   font: normal 1.1em/1.5 sans-serif;
-}
-.main-header {background-color: #384047}
-.main-nav li {background-color: #3f8abf}
-.main-logo   {background-color: #5fcf80}
-.main-header {background-color: #384047}
 
 
-.container {
-	max-width: 1000px;
-}
-
-* {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+.2nd-carousel-images {
+	padding-left: 200px;
 }
 
 
 
-.main-header {
-	padding: 15px;
-}
-
-.main-logo {
-	margin-top: 0;
-	margin-bottom: 0;
-	border-radius: 5px;
-}
-
-.main-nav li {
-	margin-top: 15px;
-	border-radius: 5px;
-	list-style-type: none;
-}
-
-.main-logo a,
-.main-nav a {
-	display:block;
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	padding: 5px 15px;
-	border-radius: 5px;
-
-}
 
 
-footer {
-	text-align: center;
-	clear: both;
-}
-
-/********************
-MEDIA QUERIES
-********************/
-
-@media screen and (min-width: 769px) {
-
-	body {
-
-		background-color: #d1f2c7;
-	}
-
-	.logo {
-		float: none;
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
-	nav ul {
-		width: 100%;
-		float: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	nav li {
-		margin: 1em;
-		padding: 0;
-	}
-
-	nav a {
-		font-size: 16px;
-	}
-
-	.Get {
-		 font-size: 30px;
-		 background-color: white;
-		 text-decoration: none;
-	  	 color: gray;
-		 border-radius: 15px;
-		 text-align: center;
-		 width: 25%;
-		 display: block;
-		 margin: 17.5% auto;
-		 padding: 1em;
-	}
-
-}
-=======
->>>>>>> 3b7a18dca0d9c23d996409f5b32fc9f32a85bdcd
