@@ -2,11 +2,26 @@
 
 
 
+
 .2nd-carousel-images {
 	padding-left: 200px;
 }
 
 
+body { 
+	padding-top: 70px;
+	position: relative;
+}
 
+.container {
+	text-align: center;
+}
 
+form {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
+.col-xs-4 {
+	padding: 10px;
+}
