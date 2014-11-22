@@ -20,6 +20,11 @@ body {
 form {
 	margin-left: 20px;
 	margin-right: 20px;
+	padding-bottom: 100px;
+}
+
+textarea {
+	margin-bottom: 15px;
 }
 
 .col-xs-4 {
